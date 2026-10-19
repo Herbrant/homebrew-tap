@@ -3,9 +3,9 @@
 cask "texoria" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.4.2"
-  sha256 arm:   "16ba1f3b807f5afe812fbde5e31fe1918b1e4dbd7862a4906ef07c554cd9014a",
-         intel: "66fec0ba44a2c9eaaf1d7fdbfb4297a425d67d2ebb27709d316ca6ec42623832"
+  version "0.5.0"
+  sha256 arm:   "0482177e55b18fb0d3b74fb8b8a2629e781b3690f4e6ea36bd4743ff1d4cdb14",
+         intel: "0fb88b379410abf0e8d94fd0e66fa89ad4d6efc3e04c5136c2d5602ef7afb7d0"
 
   url "https://github.com/Herbrant/TeXoria/releases/download/v#{version}/texoria-#{version}-macos-#{arch}.dmg"
   name "TeXoria"
